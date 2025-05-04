@@ -1,0 +1,42 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/wp9088933.jpg');
+  background-size: 100vw 100vh;
+  font-family: "Arial";
+}
+
+/* removendo o underline de todos os links que foram criados na página */
+a {
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #fff;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu ul li a {
+  font-weight: bold;
+  color: #000;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle {
+  text-align: center;
+  color: #ddd;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
